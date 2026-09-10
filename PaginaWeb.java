@@ -1,13 +1,8 @@
-public class Web {
-    String url;
-    String titulo;
-    String fechaAcceso;
+public class PaginaWeb {
 
-    public Web(String url, String titulo, String fechaAcceso) {
-        this.url = url;
-        this.titulo = titulo;
-        this.fechaAcceso = fechaAcceso;
-    }
+    private String url;
+    private String titulo;
+    private String fechaAcceso;
 
     public String getUrl() {
         return url;
@@ -32,7 +27,4 @@ public class Web {
     public void setFechaAcceso(String fechaAcceso) {
         this.fechaAcceso = fechaAcceso;
     }
-    
-
-
 }
